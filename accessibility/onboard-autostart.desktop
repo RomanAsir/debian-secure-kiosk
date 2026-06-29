@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Onboard
+GenericName=Onboard onscreen keyboard
+GenericName[es]=Teclado en pantalla Onboard
+Comment=Flexible onscreen keyboard
+Comment[es]=Teclado en pantalla flexible
+Exec=onboard --not-show-in=GNOME,GNOME-Classic:GNOME --startup-delay=3.0
+Icon=onboard
+NoDisplay=true
+AutostartCondition=GSettings org.gnome.desktop.a11y.applications screen-keyboard-enabled
+X-GNOME-AutoRestart=true
+OnlyShowIn=Unity;MATE;

@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Windows VM
+Comment=Lanzador directo a la máquina virtual sin escritorio Linux
+Exec=/usr/local/bin/sesion_directa_windows.sh
+Type=Application
